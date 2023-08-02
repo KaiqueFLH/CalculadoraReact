@@ -1,10 +1,10 @@
 import "./Display.css"
 
-export default function Display(){
-    return(
+export default function Display(props) {
+    return (
         <div className="display">
             <div className="calculo">
-                95+95
+                {props.display}
             </div>
 
             <p className="sinalIgual">=</p>
