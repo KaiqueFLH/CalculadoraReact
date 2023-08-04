@@ -9,7 +9,6 @@ export default function Calculadora(props) {
 
     return (
         <>
-            
             <Botao />
         </>
     )

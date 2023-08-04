@@ -10,7 +10,7 @@ export default function Display(props) {
             <p className="sinalIgual">=</p>
 
             <div className="resultado">
-                190
+                {props.resultado}
             </div>
         </div>
     )
