@@ -4,7 +4,7 @@ export default function Display(props) {
     return (
         <div className="display">
             <div className="calculo">
-                {props.display}
+                {props.valor}
             </div>
 
             <p className="sinalIgual">=</p>
